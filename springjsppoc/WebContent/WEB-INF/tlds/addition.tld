@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib>
+<tlibversion>1.0</tlibversion>
+<jspversion>1.2</jspversion>
+<shortname>substr</shortname>
+
+
+<tag>
+    <name>addition</name>
+    <tagclass>com.yash.dfa.custom.taglib.AdditionTagHandler</tagclass>
+   <body-content>empty</body-content>
+    
+    <attribute>
+      <name>first</name>
+        <rtexprvalue>true</rtexprvalue>
+      <required>true</required>
+      
+  </attribute>
+    <attribute>
+      <name>second</name>
+      <rtexprvalue>true</rtexprvalue>
+      <required>true</required>
+  </attribute>
+</tag>
+</taglib> 
